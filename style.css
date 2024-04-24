@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 457px;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(36, 32, 32, 4)
+
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(1, 126, 236);
+}
+
+.image .images{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid rgb(235, 205, 205);
+    padding: 3px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    font-size: 23px;
+    font-weight: 600;
+}
+.ocupation{
+    font-size: 16px;
+    font-weight: 400;
+}
+.profile .media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media .link{
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(142, 255, 72);
+    padding: 13px;
+    margin: 12px;
+    border-radius: 50px;
+    font-size: 23px;
+    align-items: center;
+}
+.link{
+    align-items: center;
+}
+.profile .button{
+     margin-top: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.button .buttons{
+    background-color: rgb(166, 205, 229);
+    padding: 8px 24px;
+    margin: 0 12px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    
+    
+
+}
+.button .buttons:hover{
+    background-color: aqua;
+}
+.profile .analytic{
+    display: flex;
+    margin-top: 12px;
+}
+.analytic .data{
+    justify-content: center;
+    padding: 12px;
+    border-right: 1px solid;
+    /* border-left: 1px solid; */
+
+}
+.data:last-child{
+    border-right: none;
+}
